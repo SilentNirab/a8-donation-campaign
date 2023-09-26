@@ -23,10 +23,10 @@ const ViewDetails = () => {
             <div className="relative">
             <img className="w-full rounded-xl " src={Picture} alt="" />
             <div className="bg-black absolute left-0 bottom-0 w-full h-28 opacity-70">
+            </div>
             <Link>
                 <button onClick={handelDonate} className={` absolute bottom-10 left-10 text-white text-md px-5 py-2 font-semibold rounded-md ${ClothiingBtn} ${FoodBtn} ${HealthBtn} ${EducationBtn}`}>Donate {Price}</button>
             </Link>
-            </div>
             </div>
             <h2 className="text-3xl font-semibold text-black">{Title}</h2>
             <h2>{Description}</h2>

@@ -5,7 +5,7 @@ import Donationcard from "../Conationcards/Donationcard";
 const Donation = () => {
     const donations = useLoaderData();
     const [appliedDonates, setAppliedDonet] = useState([]);
-    const [seeAll, setSeeAll] = useState(true);
+    const [seeAll, setSeeAll] = useState(false);
 
     useEffect(() => {
         const getId = getStoredDonataion();

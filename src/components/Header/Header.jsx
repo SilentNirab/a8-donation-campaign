@@ -2,8 +2,8 @@ import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
     return (
-        <div>
-            <div className="navbar bg-base-100">
+        <div className="">
+            <div className="navbar max-w-7xl mx-auto">
                 <div className="flex-1">
                     <Link><img src="images/Logo.png" alt="" /></Link>
                 </div>
@@ -51,8 +51,6 @@ const Header = () => {
                     </ul>
                 </div>
             </div>
-
-
         </div>
     );
 };

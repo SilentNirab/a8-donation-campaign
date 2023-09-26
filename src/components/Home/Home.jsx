@@ -8,9 +8,9 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <div className="grid grid-cols-4 gap-4 my-6 max-w-7xl mx-auto">
+            <div className="grid sm:grid-cols-2 md:grid-cols-3 px-4 lg:grid-cols-4 gap-4 my-10 max-w-7xl mx-auto">
                 {
-                    donations.map((donation, idx)=> <Donetions key={idx} donation={donation}></Donetions>)
+                    donations.map(donation=> <Donetions key={donation.ID} donation={donation}></Donetions>)
                 }
             </div>
         </div>

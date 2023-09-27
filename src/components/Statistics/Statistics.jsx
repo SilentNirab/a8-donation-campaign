@@ -23,7 +23,7 @@ const Statistics = () => {
     const totalrDonation = donations.length;
     const data = [
         { name: 'Total Donation', value: totalrDonation },
-        { name: 'Your Donation', value: yourDonation },
+        { name: 'Your Donation', value: yourDonation * 2},
     ];
     const COLORS = ['#FF444A', '#00C49F'];
     const RADIAN = Math.PI / 180;
